@@ -1,0 +1,6 @@
+{
+  "name": "TWIN — AI-Verified Internship & Skill Passport Platform",
+  "description": "Multi-stage experiential platform with parallax motion, interactive student & company workflows, live WorkSession canvas with WorkEvents logging, AI defense defense simulator, and verifiable TWIN Skill Passport.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

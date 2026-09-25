@@ -1,0 +1,25 @@
+[
+  {
+    "passportId": "NEX-2026-8941A",
+    "studentName": "Alex Chen",
+    "studentRole": "Distributed Systems Engineer",
+    "studentAvatar": "/src/assets/images/student_avatar_portrait_1790248898547.jpg",
+    "internshipTitle": "Distributed Systems & Consensus Engine Intern",
+    "companyName": "Apex Distributed Labs",
+    "defenseScore": 94,
+    "humanAiRatio": {
+      "human": 58,
+      "ai": 42
+    },
+    "issueDate": "2026-09-24",
+    "merkleRootHash": "0x8f2a91b48d21c97034b7f83e84210d7a04918e7e1c84d62b9a7c8194f0e213b9",
+    "skills": [
+      { "name": "Distributed Consensus (Raft)", "score": 96 },
+      { "name": "Telemetry-Bound Invariant Preservation", "score": 94 },
+      { "name": "AI Prompt Precision & Steering", "score": 91 },
+      { "name": "Go High-Throughput Concurrency", "score": 92 },
+      { "name": "Oral Architectural Defense", "score": 95 }
+    ],
+    "status": "VERIFIED_ON_CHAIN"
+  }
+]

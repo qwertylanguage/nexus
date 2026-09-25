@@ -1,0 +1,62 @@
+[
+  {
+    "id": "task-consensus-01",
+    "internshipId": "intern-01",
+    "title": "Design Fault-Tolerant Consensus Partition Recovery",
+    "estimatedHours": "3.5 hours",
+    "difficulty": "Advanced",
+    "overview": "In a 5-node cluster, a transient asymmetric network partition isolates nodes 3 and 4 while 18 state transitions occur on leader node 1. Design the log reconciliation protocol.",
+    "deliverables": [
+      "Interactive architecture diagram with heartbeat & quorum boundaries",
+      "Production Go implementation of Term Election & Log Rollback handlers",
+      "Documented verification proof of zero-loss state transitions"
+    ],
+    "skillsTested": [
+      "Distributed Consensus",
+      "Go State Machine",
+      "Failure Mode Topology",
+      "AI Prompt Orchestration"
+    ],
+    "rubric": {
+      "humanReasoningWeight": 45,
+      "aiOrchestrationWeight": 30,
+      "codeQualityWeight": 25
+    }
+  },
+  {
+    "id": "task-consensus-02",
+    "internshipId": "intern-01",
+    "title": "Dynamic Raft Heartbeat Tuning Under Jitter",
+    "estimatedHours": "2.0 hours",
+    "difficulty": "Intermediate",
+    "overview": "Implement adaptive randomized election timeouts that adjust in real-time to synthetic ping variance between 10ms and 450ms without causing split-brain quorum cascades.",
+    "deliverables": [
+      "Latency variance simulation model",
+      "Dynamic backoff algorithm implementation"
+    ],
+    "skillsTested": ["Network Jitter Mitigation", "Go Concurrency", "Chaos Engineering"],
+    "rubric": {
+      "humanReasoningWeight": 40,
+      "aiOrchestrationWeight": 35,
+      "codeQualityWeight": 25
+    }
+  },
+  {
+    "id": "task-quant-01",
+    "internshipId": "intern-02",
+    "title": "L2 Order Book Microstructure Queue Model",
+    "estimatedHours": "4.0 hours",
+    "difficulty": "Senior",
+    "overview": "Model priority queuing under non-Poisson order arrival rates across fragmented matching engines. Prove order execution latency bounds.",
+    "deliverables": [
+      "Tick-by-tick simulation canvas",
+      "Vectorized Python proof"
+    ],
+    "skillsTested": ["Order Book Math", "Python Vectorization", "Prompt Engineering"],
+    "rubric": {
+      "humanReasoningWeight": 50,
+      "aiOrchestrationWeight": 25,
+      "codeQualityWeight": 25
+    }
+  }
+]

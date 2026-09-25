@@ -1,0 +1,285 @@
+[
+  {
+    "id": "we-001",
+    "timestamp": "14:02:11",
+    "actor": "HUMAN",
+    "actionType": "CANVAS_NODE_CREATE",
+    "summary": "Added Leader Node 1 (Term 4)",
+    "hash": "0x9f18a2...3b1a"
+  },
+  {
+    "id": "we-002",
+    "timestamp": "14:03:45",
+    "actor": "HUMAN",
+    "actionType": "CANVAS_NODE_CREATE",
+    "summary": "Added Follower Node 2 and Follower Node 3",
+    "hash": "0x7a2c4e...8f9d"
+  },
+  {
+    "id": "we-003",
+    "timestamp": "14:05:12",
+    "actor": "AI",
+    "actionType": "AI_CODE_SUGGESTION",
+    "summary": "Generated Raft election timer randomized backoff logic",
+    "hash": "0x3d4e8b...1c2f"
+  },
+  {
+    "id": "we-004",
+    "timestamp": "14:08:29",
+    "actor": "HUMAN",
+    "actionType": "HUMAN_CODE_EDIT",
+    "summary": "Refactored log compaction invariant to prevent quorum loss",
+    "hash": "0x5c8e2a...4b7e"
+  },
+  {
+    "id": "we-005",
+    "timestamp": "14:12:04",
+    "actor": "HUMAN",
+    "actionType": "TEST_EXECUTION",
+    "summary": "Executed test suite: 12 tests passed, 0 failed, 99.8% recovery",
+    "hash": "0x1b9d4a...7c3e"
+  },
+  {
+    "id": "ev-1790259416472",
+    "timestamp": "23:16:56",
+    "timeOffsetSec": 420,
+    "type": "HUMAN_PROMPT",
+    "actor": "HUMAN",
+    "summary": "Human queried AI Copilot",
+    "payload": "Как пися?"
+  },
+  {
+    "id": "ev-1790259427058",
+    "timestamp": "23:17:07",
+    "timeOffsetSec": 420,
+    "type": "HUMAN_PROMPT",
+    "actor": "HUMAN",
+    "summary": "Human queried AI Copilot",
+    "payload": "How to prevent split vote loops during asymmetric partition recovery?"
+  },
+  {
+    "id": "ev-1790259469354",
+    "timestamp": "23:17:49",
+    "timeOffsetSec": 420,
+    "type": "HUMAN_PROMPT",
+    "actor": "HUMAN",
+    "summary": "Human queried AI Copilot",
+    "payload": "Generate exponential backoff retry loop for follower log sync."
+  },
+  {
+    "id": "ev-1790259854192",
+    "timestamp": "23:24:14",
+    "timeOffsetSec": 420,
+    "type": "HUMAN_PROMPT",
+    "actor": "HUMAN",
+    "summary": "Human queried AI Copilot",
+    "payload": "How to prevent split vote loops during asymmetric partition recovery?"
+  },
+  {
+    "id": "ev-1790259862157",
+    "timestamp": "23:24:22",
+    "timeOffsetSec": 420,
+    "type": "HUMAN_PROMPT",
+    "actor": "HUMAN",
+    "summary": "Human queried AI Copilot",
+    "payload": "Generate exponential backoff retry loop for follower log sync."
+  },
+  {
+    "id": "ev-1790259870878",
+    "timestamp": "23:24:30",
+    "timeOffsetSec": 420,
+    "type": "HUMAN_PROMPT",
+    "actor": "HUMAN",
+    "summary": "Human queried AI Copilot",
+    "payload": "123123"
+  },
+  {
+    "id": "ev-1790260157029",
+    "timestamp": "23:29:17",
+    "timeOffsetSec": 420,
+    "type": "HUMAN_PROMPT",
+    "actor": "HUMAN",
+    "summary": "Human queried AI Copilot",
+    "payload": "12323"
+  },
+  {
+    "id": "ev-1790260168465",
+    "timestamp": "23:29:28",
+    "timeOffsetSec": 420,
+    "type": "HUMAN_PROMPT",
+    "actor": "HUMAN",
+    "summary": "Human queried AI Copilot",
+    "payload": "How to prevent split vote loops during asymmetric partition recovery?"
+  },
+  {
+    "id": "ev-1790260618820",
+    "timestamp": "23:36:58",
+    "timeOffsetSec": 420,
+    "type": "HUMAN_PROMPT",
+    "actor": "HUMAN",
+    "summary": "Human queried AI Copilot",
+    "payload": "13"
+  },
+  {
+    "id": "ev-1790260636054",
+    "timestamp": "23:37:16",
+    "timeOffsetSec": 420,
+    "type": "HUMAN_PROMPT",
+    "actor": "HUMAN",
+    "summary": "Human queried AI Copilot",
+    "payload": "how is best?"
+  },
+  {
+    "id": "ev-1790260940087",
+    "timestamp": "23:42:20",
+    "timeOffsetSec": 420,
+    "type": "HUMAN_PROMPT",
+    "actor": "HUMAN",
+    "summary": "Human queried AI Copilot",
+    "payload": "How to prevent split vote loops during asymmetric partition recovery?"
+  },
+  {
+    "id": "ev-1790264379858",
+    "timestamp": "00:39:39",
+    "timeOffsetSec": 420,
+    "type": "HUMAN_PROMPT",
+    "actor": "HUMAN",
+    "summary": "Human queried AI Copilot",
+    "payload": "How to prevent split vote loops during asymmetric partition recovery?"
+  },
+  {
+    "id": "ev-1790269051825",
+    "timestamp": "01:57:31",
+    "timeOffsetSec": 420,
+    "type": "HUMAN_PROMPT",
+    "actor": "HUMAN",
+    "summary": "Human queried AI Copilot",
+    "payload": "Generate exponential backoff retry loop for follower log sync."
+  },
+  {
+    "id": "ev-1790269060563",
+    "timestamp": "01:57:40",
+    "timeOffsetSec": 420,
+    "type": "HUMAN_PROMPT",
+    "actor": "HUMAN",
+    "summary": "Human queried AI Copilot",
+    "payload": "How to prevent split vote loops during asymmetric partition recovery?"
+  },
+  {
+    "id": "ev-1790269267929",
+    "timestamp": "02:01:07",
+    "timeOffsetSec": 420,
+    "type": "HUMAN_PROMPT",
+    "actor": "HUMAN",
+    "summary": "Human queried AI Copilot",
+    "payload": "How to prevent split vote loops during asymmetric partition recovery?"
+  },
+  {
+    "id": "ev-1790269544742",
+    "timestamp": "02:05:44",
+    "timeOffsetSec": 420,
+    "type": "HUMAN_PROMPT",
+    "actor": "HUMAN",
+    "summary": "Human queried AI Copilot",
+    "payload": "How to prevent split vote loops during asymmetric partition recovery?"
+  },
+  {
+    "id": "ev-1790269757986",
+    "timestamp": "02:09:17",
+    "timeOffsetSec": 420,
+    "type": "HUMAN_PROMPT",
+    "actor": "HUMAN",
+    "summary": "Human queried AI Copilot",
+    "payload": "How to prevent split vote loops during asymmetric partition recovery?"
+  },
+  {
+    "id": "ev-1790269774157",
+    "timestamp": "02:09:34",
+    "timeOffsetSec": 420,
+    "type": "HUMAN_PROMPT",
+    "actor": "HUMAN",
+    "summary": "Human queried AI Copilot",
+    "payload": "How to prevent split vote loops during asymmetric partition recovery?"
+  },
+  {
+    "id": "ev-1790270056095",
+    "timestamp": "02:14:16",
+    "timeOffsetSec": 420,
+    "type": "HUMAN_PROMPT",
+    "actor": "HUMAN",
+    "summary": "Human queried AI Copilot",
+    "payload": "How to prevent split vote loops during asymmetric partition recovery?"
+  },
+  {
+    "id": "ev-1790291949502",
+    "timestamp": "08:19:09",
+    "timeOffsetSec": 420,
+    "type": "HUMAN_PROMPT",
+    "actor": "HUMAN",
+    "summary": "Human queried AI Copilot",
+    "payload": "авыа"
+  },
+  {
+    "id": "ev-1790291962298",
+    "timestamp": "08:19:22",
+    "timeOffsetSec": 420,
+    "type": "HUMAN_PROMPT",
+    "actor": "HUMAN",
+    "summary": "Human queried AI Copilot",
+    "payload": "How to prevent split vote loops during asymmetric partition recovery?"
+  },
+  {
+    "id": "ev-1790291975698",
+    "timestamp": "08:19:35",
+    "timeOffsetSec": 420,
+    "type": "HUMAN_PROMPT",
+    "actor": "HUMAN",
+    "summary": "Human queried AI Copilot",
+    "payload": "Generate exponential backoff retry loop for follower log sync."
+  },
+  {
+    "id": "ev-1790291992030",
+    "timestamp": "08:19:52",
+    "timeOffsetSec": 420,
+    "type": "HUMAN_PROMPT",
+    "actor": "HUMAN",
+    "summary": "Human queried AI Copilot",
+    "payload": "аааа"
+  },
+  {
+    "id": "ev-1790292129380",
+    "timestamp": "08:22:09",
+    "timeOffsetSec": 420,
+    "type": "HUMAN_PROMPT",
+    "actor": "HUMAN",
+    "summary": "Human queried AI Copilot",
+    "payload": "fdsf"
+  },
+  {
+    "id": "ev-1790292139132",
+    "timestamp": "08:22:19",
+    "timeOffsetSec": 420,
+    "type": "HUMAN_PROMPT",
+    "actor": "HUMAN",
+    "summary": "Human queried AI Copilot",
+    "payload": "How to prevent split vote loops during asymmetric partition recovery?"
+  },
+  {
+    "id": "ev-1790292260948",
+    "timestamp": "08:24:20",
+    "timeOffsetSec": 424,
+    "type": "AI_RESPONSE",
+    "actor": "AI",
+    "summary": "AI Copilot proposed quorum heartbeat guard",
+    "payload": "if followerTerm > h.currentTerm {\n    if !h.wal.HasQuorumHeartbeat() {\n        h.currentTerm = followerTerm\n        return errors.New(\"stepped down: recognized higher term follower\")\n    }\n}\n\nmatchIndex := h.wal.FindLatestCommonCommit(\n    followerID,\n    lastLogIndex\n)"
+  },
+  {
+    "id": "ev-1790292269498",
+    "timestamp": "08:24:29",
+    "timeOffsetSec": 424,
+    "type": "AI_RESPONSE",
+    "actor": "AI",
+    "summary": "AI Copilot proposed quorum heartbeat guard",
+    "payload": "if followerTerm > h.currentTerm {\n    if !h.wal.HasQuorumHeartbeat() {\n        h.currentTerm = followerTerm\n        return errors.New(\"stepped down: recognized higher term follower\")\n    }\n}\n\nmatchIndex := h.wal.FindLatestCommonCommit(\n    followerID,\n    lastLogIndex\n)"
+  }
+]
