@@ -39,6 +39,9 @@ import { CompanyDashboard } from './pages/company/CompanyDashboard';
 import { Candidates } from './pages/company/Candidates';
 import { CandidateEvidence } from './pages/company/CandidateEvidence';
 
+import { CreateInternship } from './pages/company/CreateInternship';
+import { CreateTask } from './pages/company/CreateTask';
+
 export default function App() {
   const [currentStage, setCurrentStage] = useState<RoadmapStageId>('login');
   useEffect(() => {
@@ -52,7 +55,7 @@ export default function App() {
   const [canvasMode, setCanvasMode] = useState<boolean>(false);
   const [lang, setLang] = useState<'ru' | 'en'>('ru');
   const [isZipModalOpen, setIsZipModalOpen] = useState<boolean>(false);
-
+  const [createdInternshipTitle, setCreatedInternshipTitle] = useState('');
 
   // Shared state across stages
   const [internships, setInternships] = useState<Internship[]>(INITIAL_INTERNSHIPS);
@@ -255,9 +258,31 @@ export default function App() {
 
             {currentStage === 'company-dashboard' && (
                 <CompanyDashboard
-                    onCreateInternship={() => setCurrentStage('internships')}
+                    onCreateInternship={() => setCurrentStage('company-create-internship')}
                     onViewCandidates={() => setCurrentStage('company-candidates')}
                     lang={lang}
+                />
+            )}
+
+            {currentStage === 'company-create-internship' && (
+                <CreateInternship
+                    onCancel={() => setCurrentStage('company-dashboard')}
+                    onCreated={(internship) => {
+                      setCreatedInternshipTitle(internship.title);
+                      setCurrentStage('company-create-task');
+                    }}
+                    lang={lang}
+                />
+            )}
+
+            {currentStage === 'company-create-task' && (
+                <CreateTask
+                    lang={lang}
+                    onCancel={() => setCurrentStage('company-create-internship')}
+                    onCreated={(task) => {
+                      console.log('Created task:', task);
+                      setCurrentStage('company-dashboard');
+                    }}
                 />
             )}
 

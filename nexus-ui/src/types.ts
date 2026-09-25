@@ -12,8 +12,10 @@ export type RoadmapStageId =
     | 'evidence'
     | 'twin-passport'
     | 'company-dashboard'
+    | 'company-create-internship'
+    | 'company-create-task'
     | 'company-candidates'
-    | 'company-evidence';
+    | 'company-evidence';;
 
 export interface RoadmapStep {
   id: RoadmapStageId;
