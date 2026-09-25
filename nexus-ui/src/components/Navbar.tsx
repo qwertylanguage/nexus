@@ -124,7 +124,11 @@ export const Navbar: React.FC<NavbarProps> = ({
         <div className="flex items-center gap-2 shrink-0">
           <div className="flex items-center bg-white/[0.03] border border-white/[0.08] p-0.5 rounded-xl">
             <button
-              onClick={() => setUserRole('STUDENT')}
+                onClick={() => {
+                  setUserRole('STUDENT');
+                  setCanvasMode(false);
+                  setCurrentStage('internships');
+                }}
               className={`px-2.5 py-1 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-colors cursor-pointer ${
                 userRole === 'STUDENT'
                   ? 'bg-cyan-500/20 text-cyan-300 border border-cyan-500/30'
@@ -135,7 +139,11 @@ export const Navbar: React.FC<NavbarProps> = ({
               <span className="hidden sm:inline">Student</span>
             </button>
             <button
-              onClick={() => setUserRole('COMPANY')}
+                onClick={() => {
+                  setUserRole('COMPANY');
+                  setCanvasMode(false);
+                  setCurrentStage('company-dashboard');
+                }}
               className={`px-2.5 py-1 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-colors cursor-pointer ${
                 userRole === 'COMPANY'
                   ? 'bg-purple-500/20 text-purple-300 border border-purple-500/30'
